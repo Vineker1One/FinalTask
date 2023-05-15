@@ -224,7 +224,6 @@ a {
 }
 
 /* Header End */
-
 /* Features start */
 
 .main_features {
@@ -272,15 +271,15 @@ a {
 }
 
 .icon1 {
-    background-image: url(../img/monitoring.svg);
+    background-image: url(/img/monitoring.svg);
 }
 
 .icon2 {
-    background-image: url(../img/widget.svg);
+    background-image: url(/img/widget.svg);
 }
 
 .icon3 {
-    background-image: url(../img/perfomence.svg);
+    background-image: url(/img/performance.svg);
 }
 
 .main_features_subtitle {
@@ -449,7 +448,7 @@ a {
     max-width: 1600px;
     width: 100%;
     min-height: 1086px;
-    background-image: url(../img/background-bottom.svg);
+    background-image: url(/img/backgroud-bottom.svg);
     background-repeat: no-repeat;
 }
 
@@ -1713,21 +1712,20 @@ input[type="radio"] {
 
 @media (max-width: 375px) {
     .center {
-      max-width: 335px;
-      width: 100%;
-      margin: 0 auto;
+        max-width: 335px;
+        width: 100%;
+        margin: 0 auto;
     }
-  
+
     .header_promo {
-      margin-top: 29px;
+        margin-top: 29px;
     }
-  
+
     .header_promo_img {
-      max-width: 335px;
+        max-width: 335px;
     }
-  
+
     .header_background_img {
-      max-width: 375px;
+        max-width: 375px;
     }
-  }
-  
+}
