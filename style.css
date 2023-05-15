@@ -971,3 +971,46 @@ input[type="radio"] {
 .footer-right-icon-links__icon-link:hover svg {
     fill: #ef2a82;
 }
+
+@media (max-width: 1440px) {
+    .center,
+    .header_promo {
+        max-width: 982px;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .header_promo_img {
+        background-size: contain;
+        background-position: center;
+        position: static;
+        background-image: url(../img/promo_img.svg);
+    }
+
+    .header_promo_btn {
+        width: 238px;
+    }
+
+    .plans_content__list-wrp {
+        overflow: auto;
+    }
+
+    .reports_and_widget {
+        justify-content: center;
+    }
+
+    .reports_and_widget_img {
+        margin-bottom: 120px;
+    }
+
+    .customizable {
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .dashboard {
+        justify-content: center;
+    }
+}
