@@ -1014,3 +1014,131 @@ input[type="radio"] {
         justify-content: center;
     }
 }
+
+@media (max-width: 1024px) {
+    .center {
+        max-width: 984px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .left_nav_menu_list {
+        display: none;
+    }
+
+    .signUp_btn {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        padding: 0;
+        --bs-navbar-toggler-padding-y: 0;
+        --bs-navbar-toggler-padding-x: 0;
+        --bs-navbar-toggler-border-color: 0;
+        --bs-navbar-toggler-border-radius: 0;
+        position: relative;
+        --bs-navbar-toggler-icon-bg: url();
+        background-image: url(../img/menu-icon.svg);
+    }
+
+    .bg-light {
+        --bs-bg-opacity: 0;
+        background-color: transparent;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .btn-close {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        background-image: url(../img/cross.png);
+        padding: 0;
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn-close:focus {
+        box-shadow: none;
+    }
+
+    .offcanvas-body {
+        background: #172755;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        line-height: 19px;
+        color: #8794ba;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .navbar-nav {
+        margin-bottom: 25px;
+    }
+
+    .signUp_btn_mobile {
+        width: 161px;
+        height: 40px;
+        border: 1px solid #465b95;
+        border-radius: 68px;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 19px;
+        color: #8794ba;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        padding: 10px 51px;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .signUp_btn_mobile:hover {
+        background: #ef2a82;
+        color: white;
+    }
+
+    .signUp_btn_mobile:active {
+        border: 1px solid #ef2a82;
+        background: transparent;
+        color: #ef2a82;
+    }
+
+    .navbar-toggler:hover {
+        color: transparent;
+    }
+
+    .nav-link:hover {
+        opacity: 0.7;
+    }
+
+    .nav-link:active {
+        color: #ff2c8b;
+    }
+
+    .header_promo_btn {
+        width: 238px;
+    }
+
+    .form__sign-up-wrp::before {
+        display: none;
+    }
+}
